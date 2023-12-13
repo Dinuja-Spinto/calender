@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <style>
+        table,
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            /*height: 80px;*/
+            /*width: 160px;*/
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button id="previous" >Previous</button>
+    <h3 style="display:inline;" id="monthAndYear"></h3>
+    <button id="next">Next</button>
+</div>
+<table id="calendar">
+    <thead>
+    <tr>
+        <th>SUN</th>
+        <th>MON</th>
+        <th>TUE</th>
+        <th>WED</th>
+        <th>THU</th>
+        <th>FRI</th>
+        <th>SAT</th>
+    </tr>
+    </thead>
+
+    <tbody id="calendar-body">
+
+    </tbody>
+</table>
+<script type="module" src="../dist/calender.js"></script>
+</body>
+</html>

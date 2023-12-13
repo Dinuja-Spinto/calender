@@ -1,0 +1,12 @@
+{
+  "name": "carewarelite",
+  "version": "1.0.0",
+  "description": "Calender",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc",
+    "test": "test"
+  },
+  "author": "Dinuja Pinto",
+  "license": "ISC"
+}
